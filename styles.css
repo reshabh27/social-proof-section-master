@@ -1,0 +1,164 @@
+
+#main{
+	font-family: 'Spartan', sans-serif;
+	font-size: 15px;
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+#flexbox1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+#flexbox2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+
+
+#box1_1{
+	color: hsl(300, 43%, 22%);
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+
+#b1_1_1{
+	font-weight: 700;
+	font-family: 'Spartan', sans-serif;
+	font-size: 35px;
+	padding: 5%;
+	
+}
+
+
+#box1_2{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	color: hsl(300, 24%, 96%);
+	flex-basis: 100%;
+}
+
+
+.starbox{
+	background-color: hsl(300, 24%, 96%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* flex-direction: column; */
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 3%;
+	width:90%;
+}
+
+
+.stars{
+	flex-basis: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+
+.startextboxes{
+	color: hsl(300, 43%, 22%);
+	font-weight: 700;
+	margin: auto;
+	text-align: center;
+	flex-basis: 100%;
+}
+
+.sbox2{
+	margin-left: 0px;
+}
+
+.sbox3{
+	margin-right:0px;
+}
+
+
+.box2_boxes{
+	flex-basis: 100%;
+	background-color: hsl(300, 43%, 22%);
+	padding: 30px;
+	border-radius: 10px;
+	margin: 10px 1%;
+}
+
+
+.cname{
+	color: hsl(0, 0%, 100%);
+	font-weight: 500;
+}
+
+.job{
+	color: hsl(333, 80%, 67%);
+}
+
+.namebox{
+	margin-left: 70px;
+}
+.b2_b_text{
+	color: hsl(0, 0%, 100%);
+	font-weight: 300;
+}
+.clip-star {
+	background: rgb(240, 120, 9);
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+  }
+
+
+  
+
+@media (min-width:1000px){
+	#main{
+		width: 70%;
+	}
+	#flexbox1{
+		flex-wrap: nowrap;
+	}
+	#flexbox2{
+		flex-wrap: nowrap;
+	}
+	#box1_1{
+		flex-basis: 50%;
+		margin-left: 2%;
+	}
+	#b1_1_1{
+		font-size: 50px;
+	}
+	#box1_2{
+		flex-basis: 50%;
+	}
+	.starbox{
+		flex-wrap: nowrap;
+		flex-direction: row;
+		width: 380px;
+		/* margin-bottom: 2%; */
+	}
+	.stars{
+		flex-basis: auto;
+	}
+	.startextboxes{
+		flex-basis: auto;
+	}
+	.sbox2{
+		margin-left: 10%;
+	}
+	.sbox3{
+		margin-left: 20%;
+	}
+	.box2_boxes{
+		flex-basis: 33%;
+	}
+}
